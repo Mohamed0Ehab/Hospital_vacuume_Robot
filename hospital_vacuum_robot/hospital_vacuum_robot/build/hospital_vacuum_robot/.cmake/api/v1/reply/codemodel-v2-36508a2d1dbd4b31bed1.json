@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd1838ee5728928c028d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hospital_vacuum_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hospital_vacuum_robot_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hospital_vacuum_robot_egg-42e6ee5ef528fe6b45e6.json",
+					"name" : "ament_cmake_python_build_hospital_vacuum_robot_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hospital_vacuum_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hospital_vacuum_robot-1e339707922a53a5db40.json",
+					"name" : "ament_cmake_python_copy_hospital_vacuum_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hospital_vacuum_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hospital_vacuum_robot_uninstall-69478ad0102cffbbca48.json",
+					"name" : "hospital_vacuum_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-833b9a9f08d44d13c95e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot",
+		"source" : "/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

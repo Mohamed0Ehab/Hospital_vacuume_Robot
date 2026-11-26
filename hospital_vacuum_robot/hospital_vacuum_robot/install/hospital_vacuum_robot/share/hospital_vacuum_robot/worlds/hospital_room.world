@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <world name="hospital_room">
+
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <plugin filename="gz-sim-physics-system"        name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system"  name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system"        name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.3 0.3 0.3 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Ground -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="col">
+          <geometry><plane><normal>0 0 1</normal><size>20 20</size></plane></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><plane><normal>0 0 1</normal><size>20 20</size></plane></geometry>
+          <material><ambient>0.85 0.85 0.85 1</ambient><diffuse>0.85 0.85 0.85 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- WALLS -->
+    <model name="south_wall"><static>true</static><pose>0 -4 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>10 0.2 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>10 0.2 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.9 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="north_wall"><static>true</static><pose>0 4 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>10 0.2 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>10 0.2 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.9 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="west_wall"><static>true</static><pose>-5 0 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.2 8 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 8 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.9 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="east_wall"><static>true</static><pose>5 0 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.2 8 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 8 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.9 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- HOSPITAL BED 1 -->
+    <model name="hospital_bed_1"><static>true</static><pose>2.5 1.5 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.9 2.0 0.6</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.9 2.0 0.6</size></box></geometry>
+          <material><ambient>0.8 0.8 1.0 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- HOSPITAL BED 2 -->
+    <model name="hospital_bed_2"><static>true</static><pose>-2.5 1.5 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.9 2.0 0.6</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.9 2.0 0.6</size></box></geometry>
+          <material><ambient>0.8 0.8 1.0 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- CABINET -->
+    <model name="cabinet"><static>true</static><pose>-4 -2 0.6 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.5 0.4 1.2</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.5 0.4 1.2</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- MEDICAL EQUIPMENT CART -->
+    <model name="med_cart"><static>true</static><pose>3.5 -1.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.5 0.7 1.0</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.5 0.7 1.0</size></box></geometry>
+          <material><ambient>0.7 0.7 0.9 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- IV STAND 1 -->
+    <model name="iv_stand_1"><static>true</static><pose>2.0 0.3 0.9 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.08 0.08 1.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.08 0.08 1.8</size></box></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- IV STAND 2 -->
+    <model name="iv_stand_2"><static>true</static><pose>-2.0 0.3 0.9 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.08 0.08 1.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.08 0.08 1.8</size></box></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- NURSE DESK -->
+    <model name="nurse_desk"><static>true</static><pose>0 -3.0 0.4 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>1.5 0.6 0.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.5 0.6 0.8</size></box></geometry>
+          <material><ambient>0.55 0.35 0.15 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- CHAIR 1 -->
+    <model name="chair_1"><static>true</static><pose>1.0 -2.5 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.4 0.4 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.4 0.4 0.5</size></box></geometry>
+          <material><ambient>0.2 0.2 0.6 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- CHAIR 2 -->
+    <model name="chair_2"><static>true</static><pose>-1.0 -2.5 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.4 0.4 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.4 0.4 0.5</size></box></geometry>
+          <material><ambient>0.2 0.2 0.6 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- MONITOR/SCREEN on wall -->
+    <model name="monitor"><static>true</static><pose>4.85 2.0 1.4 0 0 -1.5707</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.05 0.8 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.05 0.8 0.5</size></box></geometry>
+          <material><ambient>0.1 0.1 0.1 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- TRASH BIN -->
+    <model name="trash_bin"><static>true</static><pose>4.3 -3.3 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><cylinder><radius>0.2</radius><length>0.6</length></cylinder></geometry></collision>
+        <visual name="vis"><geometry><cylinder><radius>0.2</radius><length>0.6</length></cylinder></geometry>
+          <material><ambient>0.2 0.5 0.2 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- PILLAR center room -->
+    <model name="pillar"><static>true</static><pose>0 0 1.0 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><cylinder><radius>0.15</radius><length>2.0</length></cylinder></geometry></collision>
+        <visual name="vis"><geometry><cylinder><radius>0.15</radius><length>2.0</length></cylinder></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,93 @@
+[0.080s] Invoking command in '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot': CMAKE_PREFIX_PATH=/home/ziad/ros2_ws/install/sbe361_lab7:/home/ziad/ros2_ws/install/rotations_3d:/home/ziad/ros2_ws/install/my_first_robot:/home/ziad/rrr_ws/install/rrr_arm_ik:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot -DCMAKE_INSTALL_PREFIX=/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot
+[0.528s] -- The C compiler identification is GNU 13.3.0
+[1.298s] -- The CXX compiler identification is GNU 13.3.0
+[1.900s] -- Detecting C compiler ABI info
+[2.783s] -- Detecting C compiler ABI info - done
+[2.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.820s] -- Detecting C compile features
+[2.821s] -- Detecting C compile features - done
+[2.956s] -- Detecting CXX compiler ABI info
+[3.797s] -- Detecting CXX compiler ABI info - done
+[3.835s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.836s] -- Detecting CXX compile features
+[3.837s] -- Detecting CXX compile features - done
+[3.903s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.186s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.772s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[5.570s] -- Configuring done (5.4s)
+[6.007s] -- Generating done (0.4s)
+[6.259s] -- Build files have been written to: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot
+[6.267s] Invoked command in '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot' returned '0': CMAKE_PREFIX_PATH=/home/ziad/ros2_ws/install/sbe361_lab7:/home/ziad/ros2_ws/install/rotations_3d:/home/ziad/ros2_ws/install/my_first_robot:/home/ziad/rrr_ws/install/rrr_arm_ik:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot -DCMAKE_INSTALL_PREFIX=/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot
+[6.281s] Invoking command in '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot': CMAKE_PREFIX_PATH=/home/ziad/ros2_ws/install/sbe361_lab7:/home/ziad/ros2_ws/install/rotations_3d:/home/ziad/ros2_ws/install/my_first_robot:/home/ziad/rrr_ws/install/rrr_arm_ik:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot -- -j12 -l12
+[6.800s] Built target ament_cmake_python_copy_hospital_vacuum_robot
+[7.119s] running egg_info
+[7.121s] creating hospital_vacuum_robot.egg-info
+[7.145s] writing hospital_vacuum_robot.egg-info/PKG-INFO
+[7.150s] writing dependency_links to hospital_vacuum_robot.egg-info/dependency_links.txt
+[7.160s] writing top-level names to hospital_vacuum_robot.egg-info/top_level.txt
+[7.164s] writing manifest file 'hospital_vacuum_robot.egg-info/SOURCES.txt'
+[7.255s] reading manifest file 'hospital_vacuum_robot.egg-info/SOURCES.txt'
+[7.286s] writing manifest file 'hospital_vacuum_robot.egg-info/SOURCES.txt'
+[7.322s] Built target ament_cmake_python_build_hospital_vacuum_robot_egg
+[7.340s] Invoked command in '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot' returned '0': CMAKE_PREFIX_PATH=/home/ziad/ros2_ws/install/sbe361_lab7:/home/ziad/ros2_ws/install/rotations_3d:/home/ziad/ros2_ws/install/my_first_robot:/home/ziad/rrr_ws/install/rrr_arm_ik:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot -- -j12 -l12
+[7.382s] Invoking command in '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot': CMAKE_PREFIX_PATH=/home/ziad/ros2_ws/install/sbe361_lab7:/home/ziad/ros2_ws/install/rotations_3d:/home/ziad/ros2_ws/install/my_first_robot:/home/ziad/rrr_ws/install/rrr_arm_ik:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot
+[7.399s] -- Install configuration: ""
+[7.425s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/environment/pythonpath.sh
+[7.511s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/environment/pythonpath.dsv
+[7.588s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot-1.0.0-py3.12.egg-info
+[7.626s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot-1.0.0-py3.12.egg-info/dependency_links.txt
+[7.719s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot-1.0.0-py3.12.egg-info/PKG-INFO
+[7.817s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot-1.0.0-py3.12.egg-info/SOURCES.txt
+[7.905s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot-1.0.0-py3.12.egg-info/top_level.txt
+[7.983s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot
+[8.016s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/auto_explorer.py
+[8.094s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/diff_drive_kinematics.py
+[8.172s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/diff_drive_kinematics.py:Zone.Identifier
+[8.250s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/obstacle_avoidance.py
+[8.338s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/sterilization_controller.py
+[8.428s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/sterilization_controller.py:Zone.Identifier
+[8.510s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/__init__.py
+[8.587s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/__init__.py:Zone.Identifier
+[8.987s] Listing '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot'...
+[8.988s] Compiling '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/__init__.py'...
+[8.989s] Compiling '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/auto_explorer.py'...
+[8.990s] Compiling '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/diff_drive_kinematics.py'...
+[8.990s] Compiling '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/obstacle_avoidance.py'...
+[8.991s] Compiling '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/python3.12/site-packages/hospital_vacuum_robot/sterilization_controller.py'...
+[9.013s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/hospital_vacuum_robot/diff_drive_kinematics.py
+[9.073s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/hospital_vacuum_robot/sterilization_controller.py
+[9.133s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/hospital_vacuum_robot/obstacle_avoidance.py
+[9.188s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/urdf
+[9.218s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/urdf/vacuum_robot.urdf.xacro
+[9.284s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/urdf/vacuum_robot.urdf.xacro:Zone.Identifier
+[9.346s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/launch
+[9.373s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/launch/nav2.launch.py
+[9.445s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/launch/simulation.launch.py
+[9.513s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/launch/simulation.launch.py:Zone.Identifier
+[9.584s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/worlds
+[9.613s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/worlds/hospital_room.world
+[9.691s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/worlds/hospital_room.world:Zone.Identifier
+[9.763s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/config
+[9.792s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/config/nav2_params.yaml
+[9.872s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/config/slam_params.yaml
+[9.942s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/maps
+[9.974s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/maps/hospital_map.pgm
+[10.043s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/maps/hospital_map.yaml
+[10.141s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/ament_index/resource_index/package_run_dependencies/hospital_vacuum_robot
+[10.265s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/ament_index/resource_index/parent_prefix_path/hospital_vacuum_robot
+[10.349s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/environment/ament_prefix_path.sh
+[10.413s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/environment/ament_prefix_path.dsv
+[10.479s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/environment/path.sh
+[10.544s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/environment/path.dsv
+[10.615s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/local_setup.bash
+[10.677s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/local_setup.sh
+[10.739s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/local_setup.zsh
+[10.800s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/local_setup.dsv
+[10.863s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/package.dsv
+[10.953s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/ament_index/resource_index/packages/hospital_vacuum_robot
+[11.053s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/cmake/hospital_vacuum_robotConfig.cmake
+[11.120s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/cmake/hospital_vacuum_robotConfig-version.cmake
+[11.190s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/share/hospital_vacuum_robot/package.xml
+[11.253s] -- Installing: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/hospital_vacuum_robot/auto_explorer
+[11.320s] -- Up-to-date: /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/install/hospital_vacuum_robot/lib/hospital_vacuum_robot/auto_explorer
+[11.330s] Invoked command in '/mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot' returned '0': CMAKE_PREFIX_PATH=/home/ziad/ros2_ws/install/sbe361_lab7:/home/ziad/ros2_ws/install/rotations_3d:/home/ziad/ros2_ws/install/my_first_robot:/home/ziad/rrr_ws/install/rrr_arm_ik:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /mnt/d/Biomedical_Materials/Robotics/hospital_vacuum_robot/hospital_vacuum_robot/build/hospital_vacuum_robot
